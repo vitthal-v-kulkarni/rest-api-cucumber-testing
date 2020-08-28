@@ -11,7 +11,7 @@ public class GetPostSteps {
 	@Given("^I perform GET operation for \"([^\"]*)\"$")
 	public void i_perform_GET_operation_for(String arg1) throws Throwable {
 	  
-		System.out.println("Test1");
+		System.out.println("Test1 !!!");
 	}
 
 	@And("^I perform GET for the post numebr \"([^\"]*)\"$")
