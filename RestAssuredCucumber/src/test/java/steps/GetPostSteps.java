@@ -17,7 +17,7 @@ public class GetPostSteps {
 	@And("^I perform GET for the post numebr \"([^\"]*)\"$")
 	public void i_perform_GET_for_the_post_numebr(String arg1) throws Throwable {
 		
-		System.out.println("Test 2");
+		System.out.println("Test 2 !!!");
 	}
 
 	@Then("^I should see the author name as \"([^\"]*)\"$")
