@@ -1,8 +1,15 @@
 package cucumberoptions;
 
-import cucumber.api.CucumberOptions;
+import org.junit.runner.RunWith;
 
-@CucumberOptions()
+import cucumber.api.CucumberOptions;
+import io.cucumber.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = {"/RestAssuredCucumber/src/test/java/features"},
+		glue = {"/RestAssuredCucumber/src/test/java/steps"}		
+		)
 public class TestRunner {
 
 }
