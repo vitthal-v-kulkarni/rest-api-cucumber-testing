@@ -25,6 +25,7 @@ public class GetPostSteps {
 
 		System.out.println("Test 3 !!!");
 		System.out.println("Just ot check Jenkins auto job trigger after Git push");
+		System.out.println("Just ot check Jenkins auto job trigger after Git push");
 	}
 
 	
