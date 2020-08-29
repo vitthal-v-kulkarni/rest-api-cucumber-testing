@@ -24,6 +24,7 @@ public class GetPostSteps {
 	public void i_should_see_the_author_name_as(String arg1) throws Throwable {
 
 		System.out.println("Test 3 !!!");
+		System.out.println("Just ot check Jenkins auto job trigger after Git push");
 	}
 
 	
