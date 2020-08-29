@@ -5,19 +5,43 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-  	<dependency>
-	    <groupId>info.cukes</groupId>
-	    <artifactId>cucumber-java</artifactId>
-	    <version>1.2.5</version>
-	</dependency>
-	<dependency>
-	    <groupId>io.rest-assured</groupId>
-	    <artifactId>rest-assured</artifactId>
-	    <version>4.3.0</version>
-	    <scope>test</scope>
-	</dependency>
-	
-
-  </dependencies>
+	  	<dependency>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-java</artifactId>
+		    <version>1.2.5</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.rest-assured</groupId>
+		    <artifactId>rest-assured</artifactId>
+		    <version>4.3.0</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-java</artifactId>
+		    <version>6.6.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-junit</artifactId>
+		    <version>6.6.0</version>
+		    <scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+		<dependency>
+		    <groupId>com.jayway.jsonpath</groupId>
+		    <artifactId>json-path</artifactId>
+		    <version>2.4.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-core</artifactId>
+		    <version>6.6.0</version>
+		</dependency>
+			
+		
+	</dependencies>
   
 </project>
